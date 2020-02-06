@@ -1,0 +1,146 @@
+/*===========wall===============*/
+.wc-wall-wrap{
+  position: relative;
+}
+.wc-wall-view{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 1;
+  background-color: #660099;
+}
+/*===========end wall============*/
+
+/*===========District===========*/
+.wc-district{
+  width: 36300px;
+  height: 36300px;
+  background-color:rebeccapurple;
+}
+/*===========end district============*/
+
+/*===========village================*/
+.wc-village{
+  position: absolute;
+  width: 3300px;
+  height: 3300px;
+}
+/*============village================*/
+
+/*============Land==================*/
+.wc-land{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+.wc-land-none{
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #C2C2C2;
+}
+.wc-land-none div{
+  border-radius: 8px;
+}
+.bgBlack{
+  background-color: black;
+}
+.bgWhite{
+  background-color: white;
+}
+.bgPublica{
+  background-color: #A0A0A0;
+}
+.wc-land-none-act{
+  position: absolute;
+  width: 80px;
+  height: 20px;
+  margin-left: 50%;
+  margin-top: 50%;
+  left: -40px;
+  top: -10px;
+  text-align: center;
+}
+/*============end land================*/
+
+/*============house===================*/
+.wc-house{
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: white ;
+  border-radius: 8px;
+}
+/*
+.wc-house-info{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+*/
+.wc-house-avatar{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+/*================= end house ==================*/
+
+/*================ center ====================*/
+.wc-center-wrap{
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  top: 1500px;
+  left: 1200px;
+}
+.wc-center-contain{
+  width: 580px;
+  height: 580px;
+  margin-left: 10px;
+  margin-top: 10px;
+  border-radius: 8px;
+  background-color: #ECECEC;
+}
+.wc-center-top{
+  width: 100%;
+  height: 40px;
+  background-color: #363636;
+}
+/*================ end ========================*/
+
+/*================= move =================*/
+.wc-move{
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  bottom: 16px;
+  right:16px;
+  z-index: 1000;
+  border: 2px solid black;
+  border-radius:50%;
+
+}
+.wc-move-mask{
+  background-color: black; border-radius:50%;
+}
+.wc-move-trend{
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: white;
+}
+.wc-move-trend span:hover{color: red;cursor: pointer;}
+.wc-move-top{top: 0;left: 30px;}
+.wc-move-right{top: 30px;left: 60px;}
+.wc-move-center{top: 30px;left: 30px;}
+.wc-move-bottom{top: 60px;left: 30px;}
+.wc-move-left{top: 30px;left: 0;}
+/*=================end move==============*/

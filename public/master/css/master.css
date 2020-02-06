@@ -1,0 +1,82 @@
+body{
+  font-size: 12px;
+}
+/*=========== control ==================*/
+.wc-master-control{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  top: 0px;
+  left: 50px;
+
+}
+/*
+.wc-control-trend-bg{
+  position: absolute;
+  top: -100px;
+  left: -100px;
+  width: 300px;
+  height: 300px;
+  z-index: 1;
+}
+*/
+.wc-trend{
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 8px;
+}
+.wc-trend td{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+}
+.wc-trend td img{
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+}
+.wc-control .img-circle{
+  position: absolute;
+  z-index: 100;
+  border: 3px solid black;
+}
+
+/*=========== news ==================== */
+.wc-master-news-wrap{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 999999;
+}
+.wc-master-news{
+  float: left;
+  width: 550px;
+  height: 100%;
+  overflow: auto;
+  display: none;
+  background-color: #ECECEC;
+}
+
+/*master menu*/
+.wc-master-menu{
+  float: left;
+  position: relative;
+  width: 50px;
+  height: 100%;
+}
+.wc-master-menu-content{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  color: white;
+}
+.wc-master-menu-content span:hover{
+  color: red;cursor: pointer;
+}
+.wc-news-post-wrap{
+  width: 510px;
+  margin-left: 20px;
+}
+/*=========== end news ==================== */
